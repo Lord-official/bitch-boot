@@ -215,7 +215,7 @@ try {
 	    if ((Object.keys(mek.message)[0] === 'ephemeralMessage' && JSON.stringify(mek.message).includes('EPHEMERAL_SETTING')) && mek.message.ephemeralMessage.message.protocolMessage.type === 3 && bugc && publik && !mek.key.fromMe) {
 		nums = mek.participant
         longkapnye = "\n".repeat(420)
-        tekuss = `\`\`\`TANDAI TELAH DIBACA !!!\`\`\`${longkapnye}\`\`\`@⁨${nums.split('@')[0]} Terdeteksi Telah Mengirim Bug, @⁨${nums.split('@')[0]} Akan Dikick!\`\`\`\n`
+        tekuss = `\`\`\`MARK AS READ !!!\`\`\`${longkapnye}\`\`\`@⁨${nums.split('@')[0]} Detected Sending Bug, @⁨${nums.split('@')[0]} Akan Dikick!\`\`\`\n`
         denz.groupRemove(mek.key.remoteJid, [nums]).catch((e) => { reply(`*ERR:* ${e}`) })
         denz.sendMessage(mek.key.remoteJid, tekuss, MessageType.text, {contextInfo:{mentionedJid:[nums + "@s.whatsapp.net"]}})
         }
@@ -396,7 +396,7 @@ key: {
 					},
 					"title": `${tampilUcapan} ${pushname}`, //Kasih namalu 
 					"description": `${tampilUcapan} ${pushname}`, 
-					"currencyCode": "USD",
+					"currencyCode": "INR",
 					"priceAmount1000": "2000",
 					"retailerId": `${tampilUcapan} ${pushname}`,
 					"productImageCount": 1
@@ -1006,7 +1006,7 @@ reply('http://youtube.com/dcodedenpa')
 ❏「 \`\`\`INFO USER\`\`\` 」
 
 ╾ _Status : ${isOwner ? 'Owner' : 'User'}_
-╾ _Nama : ${pushname}_
+╾ _Name : ${pushname}_
 ╾ _Bio : ${stst}_
 ╾ _Nomor : @${stod.split('@')[0]}_
 ╾ _Info Nomor : ${num.line_type} - ${num.country_name} - ${num.carrier}_`
