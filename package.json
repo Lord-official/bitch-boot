@@ -28,7 +28,7 @@
     "base64-img": "^1.0.4",
     "base64-to-image": "^1.0.2",
     "brainly-scraper": "^1.0.3",
-    "cfonts": "^2.9.2",
+    "cfonts": "^3.0.0",
     "color": "^4.0.0",
     "emoji-api": "^1.0.2",
     "fake-useragent": "^1.0.1",
