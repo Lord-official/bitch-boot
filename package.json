@@ -24,7 +24,7 @@
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "@vitalets/google-translate-api": "^7.0.0",
     "awesome-phonenumber": "^2.54.0",
-    "axios": "^0.21.1",
+    "axios": "^0.27.0",
     "base64-img": "^1.0.4",
     "base64-to-image": "^1.0.2",
     "brainly-scraper": "^1.0.3",
