@@ -47,7 +47,7 @@
     "mathjs": "^9.4.3",
     "moment-timezone": "^0.5.33",
     "multistream": "^4.1.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.0.0",
     "node-tesseract-ocr": "^2.2.1",
     "os": "^0.1.1",
     "parse-ms": "^2.1.0",
