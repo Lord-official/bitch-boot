@@ -44,7 +44,7 @@
     "jsdom": "^16.5.0",
     "latest": "^0.2.0",
     "marker": "^0.1.2",
-    "mathjs": "^9.4.3",
+    "mathjs": "^11.0.0",
     "moment-timezone": "^0.5.33",
     "multistream": "^4.1.0",
     "node-fetch": "^2.6.1",
