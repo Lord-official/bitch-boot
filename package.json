@@ -55,7 +55,7 @@
     "request": "^2.88.2",
     "scraper-instagram": "^1.0.17",
     "spinnies": "^0.5.1",
-    "terminal-kit": "^2.1.6",
+    "terminal-kit": "^3.0.0",
     "tiktok-scraper-without-watermark": "^1.0.6",
     "ytsr": "^3.5.0",
     "zrapi": "0.0.6"
