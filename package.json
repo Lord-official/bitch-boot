@@ -22,7 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
-    "@vitalets/google-translate-api": "^8.0.0",
+    "@vitalets/google-translate-api": "^9.0.0",
     "awesome-phonenumber": "^3.0.0",
     "axios": "^0.27.0",
     "base64-img": "^1.0.4",
