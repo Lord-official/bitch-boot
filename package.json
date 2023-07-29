@@ -58,7 +58,7 @@
     "terminal-kit": "^2.1.6",
     "tiktok-scraper-without-watermark": "^1.0.6",
     "ytsr": "^3.5.0",
-    "zrapi": "0.0.6"
+    "zrapi": "0.0.7"
   },
   "devDependencies": {},
   "repository": {
