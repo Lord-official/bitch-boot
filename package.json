@@ -45,7 +45,7 @@
     "latest": "^0.2.0",
     "marker": "^0.1.2",
     "mathjs": "^11.0.0",
-    "moment-timezone": "^0.5.33",
+    "moment-timezone": "^0.6.0",
     "multistream": "^4.1.0",
     "node-fetch": "^3.0.0",
     "node-tesseract-ocr": "^2.2.1",
